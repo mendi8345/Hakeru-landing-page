@@ -2,10 +2,9 @@
     display: none;
 }
 
-
-/* #sixth.open {
+#sixth.open {
     display: block;
-} */
+}
 
 .background-alert {
     position: fixed;
