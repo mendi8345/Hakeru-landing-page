@@ -1,0 +1,83 @@
+    #third {
+        position: relative;
+        width: 100%;
+        float: right;
+        background: url(https://www.hackeru.co.il/assets/site/images/bg_4.png) no-repeat;
+        background-size: cover;
+        padding-top: 120px;
+        z-index: -1;
+    }
+    
+    #third .main {
+        width: 940px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #third h3.title {
+        float: right;
+        font-size: 44px;
+        margin: 0 20px 35px;
+        color: #333;
+        font-weight: 700;
+    }
+    
+    #third .advantages {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+    }
+    
+    #third .adv {
+        width: 462px;
+        margin-bottom: 47px;
+        float: right;
+    }
+    
+    .adv .text3 span.title {
+        font-family: almoni-dl;
+        font-size: 21px;
+        color: #333;
+        font-weight: 700;
+    }
+    
+    .adv .text3 a {
+        color: #213a7f;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+    
+    .adv .text3 p {
+        color: #333;
+        width: 322px;
+        font-size: 18px;
+    }
+    
+    #third .adv .img {
+        width: 70px;
+    }
+    
+    @media (max-width: 1000px) {
+        #third .main {
+            width: 100%;
+            align-items: center;
+            /* margin: auto; */
+        }
+        #third .advantages {
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    
+    @media(max-width:30rem) {
+        #third h3.title {
+            margin: auto;
+        }
+    }

@@ -1,0 +1,301 @@
+    #second {
+        width: 100%;
+        float: right;
+        background: #f5f8f9;
+        padding-top: 60px;
+        display: block;
+    }
+    
+    #second .main {
+        margin: 0 auto;
+        width: 940px;
+        display: grid;
+        direction: ltr;
+        /* overflow: hidden; */
+        grid-template-rows: 50px auto auto auto;
+        grid-template-columns: 340px 600px;
+        grid-template-areas: "header header" "contact-information main" "buisness buisness";
+    }
+    
+    #second .main .title {
+        /* background-color: green; */
+        font-size: 44px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 10px;
+        grid-area: header;
+        display: flex;
+    }
+    
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-information span {
+        padding-right: 18px;
+        font-size: 26px;
+        font-weight: 700;
+        padding-right: 18px;
+        color: #fff;
+        margin-bottom: auto;
+    }
+    
+    .form .input label span {
+        position: relative;
+        color: #213b7f;
+        float: left;
+        bottom: 10px;
+        padding-right: 0;
+    }
+    
+    .contact-information .form .input {
+        position: relative!important;
+        margin-bottom: 22px;
+        margin-left: 0;
+        width: 260px;
+        height: 60px;
+        padding-right: 8px;
+        margin-right: 8px;
+        color: #373737;
+        background: #fff;
+        display: inline-block;
+    }
+    
+    .form .input label {
+        position: relative;
+        top: 15px;
+        width: 70px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    #side-form-button {
+        height: 60px;
+        width: 260px;
+        display: inline-block;
+        background: #18FFFF;
+        margin-bottom: 16px;
+        margin-right: 8px;
+    }
+    
+    .courses {
+        grid-area: main;
+        overflow: hidden;
+    }
+    
+    .course .courses {
+        margin-right: -15px;
+        width: 630px;
+        margin-bottom: 94px;
+    }
+    
+    .courses .pack {
+        float: right;
+        margin-top: 20px;
+        width: 141px;
+        height: 140px;
+        margin-left: 12.6px;
+        text-align: Center;
+        font-size: 16.5px;
+    }
+    
+    .course-icon {
+        width: 40px;
+        min-width: 40px;
+        margin: 0 auto;
+    }
+    
+    #course .img {
+        vertical-align: middle;
+    }
+    
+    .contact-information {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        font-family: almoni-dl, sans-serif;
+        box-sizing: border-box;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+        outline: 0;
+        float: left;
+        /* position: relative; */
+        width: 300px;
+        height: 490px;
+        background: linear-gradient(135deg, #8e24aa 2%, #0d47a1 100%);
+        margin-top: 18px;
+        padding-top: 22px;
+        margin-bottom: 7px;
+        box-shadow: 3px 3px 7px 0px rgba(139, 145, 147, 0.40);
+        grid-area: contact-information;
+    }
+    
+    #second .buisness {
+        grid-area: buisness;
+    }
+    
+    .buisness {
+        display: flex;
+        background: #f8fbfc;
+        width: 100%;
+        float: right;
+        margin-top: -60px;
+        -moz-box-shadow: 0px 3px 6px #00000029;
+        box-shadow: 0px 3px 6px #00000029;
+        margin-bottom: -60px;
+        padding: 20px 20px;
+        margin-top: 50px;
+    }
+    
+    .buisness .inner {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        background: transparent linear-gradient(252deg, #FFFFFF 0%, #F5F7FF 100%) 0% 0% no-repeat padding-box;
+    }
+    
+    .inner .second {
+        background-color: white;
+    }
+    
+    .buisness .inner a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-size: 12px !important;
+        font-weight: 700;
+        font-family: almoni-dl, sans-serif;
+    }
+    
+    .buisness .inner p {
+        line-height: 1;
+        color: #373737;
+        margin-right: 0;
+        margin-top: 0;
+        font-size: 13.8px;
+        margin-bottom: 0.2em;
+        font-family: almoni-dl, sans-serif;
+    }
+    
+    .inner .left h3 {
+        padding-top: 0.5em;
+        margin: 0.6em 0 0.3em;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .bz-img {
+        width: 50%;
+    }
+    
+    .buisness .bz-img img {
+        height: 3em;
+        margin-top: 30px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    .bz-img {
+        width: 50%;
+        font-size: 19px;
+        text-align: center;
+        background: transparent;
+        color: #fff;
+        padding-top: 10px;
+    }
+    
+    .bz-text {
+        width: 50%;
+    }
+    
+    .courses .pack .name {
+        height: 41px;
+        line-height: 1;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    
+    .course h3.title,
+    .courses .pack {
+        color: #333;
+        font-family: almoni-dl, sans-serif;
+    }
+    
+    @media (max-width: 1000px) {
+        #second .main {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .course .courses {
+            width: 80%;
+            margin: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        #second .main .title {
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-information {
+            display: none;
+        }
+        .buisness {
+            /* flex-direction: column; */
+        }
+    }
+    
+    @media(max-width:30rem) {
+        #second .main {}
+        h3.title {
+            font-size: 2.2em !important;
+        }
+        .course .courses {
+            flex-direction: column;
+            margin-left: auto;
+            width: 100%;
+        }
+        .courses .pack {
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+            padding: 0.3em 0;
+            margin-right: 0 !important;
+        }
+        .courses a {
+            width: 100%;
+            border: 1px solid rgba(204, 204, 204, 0.5);
+            margin-bottom: 0.3em;
+        }
+        .courses a::after {
+            content: url(https://www.hackeru.co.il/assets/site/images/arrow.svg);
+            min-width: 10px;
+            position: absolute;
+            left: 1em;
+            margin-top: 1.2em;
+        }
+        .course-seperator {
+            /* min-width: 4px; */
+            width: 4px;
+            height: 35px;
+            margin: auto 0.6em;
+        }
+        .courses .pack .name {
+            text-align: right;
+            padding-left: 30px;
+            height: auto;
+        }
+    }

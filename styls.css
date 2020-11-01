@@ -1,0 +1,224 @@
+    * {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        direction: rtl;
+        outline: 0;
+    }
+    
+    #second div,
+    #second img {
+        animation: body-animation 1500ms ease-in 0s 1;
+        ;
+    }
+    
+    nav ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 16px;
+        /* font-weight: bold; */
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding-bottom: 58px;
+        font-family: almoni-dl, sans-serif;
+        /* display: flex; */
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    header {
+        width: 100%;
+        height: 50px;
+        background: #213a7f;
+        /* display: flex; */
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+    .header-main {
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .ul__header-links {
+        list-style: none;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: row;
+        float: right !important;
+        /* transform: translateX(-30%); */
+        /* width: 70%; */
+        /* margin: 0; */
+    }
+    
+    .ul__header-links li a {
+        color: #fff;
+    }
+    
+    a {
+        color: #337ab7;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    a:focus,
+    a:hover {
+        color: #23527c;
+        text-decoration: underline;
+    }
+    
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+    
+    header .optional-links {
+        float: r;
+    }
+    
+    .ul__header-links li a {
+        color: #ffffff;
+    }
+    
+    .header .search {
+        width: 250px;
+        height: 50px;
+        background: #122046;
+        float: left;
+        /* margin: 0 4rem; */
+    }
+    
+    .search .separator {
+        width: 1px;
+        float: right;
+        background: #fff;
+        height: 15px;
+        margin-top: 17.5px;
+    }
+    
+    .search .input {
+        width: 181px;
+        height: 50px;
+        background: 0 0;
+        border: 0;
+        float: right;
+        padding-right: 10px;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .search button#search {
+        width: 38px;
+        height: 50px;
+        text-align: center;
+        float: left;
+        background: 0 0;
+        outline: 0;
+    }
+    
+    .space {
+        margin-top: 5px;
+        height: 15px;
+        width: 1px;
+        margin-right: 8px;
+        margin-left: 8px;
+        background: #fff;
+    }
+    
+    .tag {
+        padding-top: 7px;
+        font-family: almoni-dl, sans-serif;
+        font-weight: 700;
+        width: 86px;
+        height: 115px;
+        background: url(https://www.hackeru.co.il/assets/site/images/soldier.png) no-repeat;
+        margin-top: -57px;
+        position: relative;
+        left: -40px;
+        top: 37px;
+        color: #eee;
+        font-size: 14.5px;
+        text-align: center;
+        float: left;
+    }
+    
+    nav ul li {
+        font-family: 'Heebo', sans-serif;
+        width: auto;
+        padding-right: 20px;
+    }
+    /* .dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+} */
+    /*madia **********************************************/
+    
+    .open {
+        /* display: block !important; */
+    }
+    
+    @media (max-width: 1000px) {
+        * {
+            max-width: 100% !important;
+        }
+        .header-main {
+            width: 456px;
+            text-align: center;
+            margin: auto;
+        }
+        header .optional-links {
+            display: none;
+        }
+        .header .search {
+            display: none;
+            background: #122046;
+            /* margin: 0 4rem; */
+        }
+        .tag {
+            display: none;
+        }
+        .ul__header-links {
+            transform: translateX(-30%);
+        }
+        .right {
+            float: none !important;
+        }
+    }
+    
+    @media(max-width:30rem) {
+        header {
+            height: 10px;
+        }
+        .ul__header-links {
+            display: none;
+        }
+    }
+    
+    @media(min-width:40rem) {}
+    
+    @keyframes body-animation {
+        0% {
+            transform: translateY(32rem);
+            /* background: black; */
+        }
+        25% {
+            transform: translateY(16rem);
+            /* background: blue; */
+        }
+        50% {
+            transform: translateY(8rem);
+            /* background: red; */
+        }
+        100% {
+            transform: translateY(4rem);
+            /* transform: rotateZ(360deg); */
+            background: none;
+        }
+    }

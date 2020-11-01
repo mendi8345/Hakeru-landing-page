@@ -1,0 +1,12 @@
+.bt-icons {
+    text-align: Center;
+    padding-top: 14px;
+    width: 100%;
+    background: #eee;
+    float: right;
+}
+
+.bt-icons img {
+    width: 60%;
+    vertical-align: middle;
+}

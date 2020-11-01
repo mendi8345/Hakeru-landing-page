@@ -1,0 +1,234 @@
+#fifth {
+    background: #213b7f;
+    width: 100%;
+    float: right;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+}
+
+#fifth .main {
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#fifth .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#fifth span.title {
+    font-size: 18px;
+    color: #e1e5e3;
+    margin: 20px 0;
+    align-self: flex-start;
+}
+
+#fifth .form-inputs {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 200px; */
+}
+
+#fifth .form-inputs .input {
+    list-style: none;
+    margin-left: 16px;
+    position: relative;
+    width: 220px;
+    height: 60px;
+    padding-right: 8px;
+    color: #373737;
+}
+
+#fifth .form-inputs input {
+    /* width: 100%; */
+    height: 100%;
+    padding-right: 70px;
+}
+
+.form .input label {
+    position: absolute;
+    top: 20px;
+    width: 70px;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+.check .sp {
+    float: right;
+    font-size: 13px;
+    color: #fff;
+    width: 190px;
+    margin-right: 10px;
+}
+
+#contact-from-general .privacy-policy {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.privacy-policy .open-popup-link {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+#fifth .form-inputs .button {
+    width: 228px;
+    height: 60px;
+    /* padding: 2px; */
+    /* padding-top: 8px; */
+}
+
+.button .bt_in {
+    width: 97%;
+    height: 50px;
+    border: 2px solid #aad6be;
+    font-size: 24pt;
+    color: #213a7f;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#fifth .form .checkbox {
+    /* list-style: none; */
+    /* position: absolute; */
+    width: auto;
+    top: 100px;
+    left: auto;
+    height: auto;
+}
+
+#checkbox_2 {
+    /* display: inline-block; */
+    width: auto;
+    /* max-width: 100%; */
+    /* margin-bottom: 5px; */
+    font-weight: 700;
+}
+
+.checkbox_label {
+    /* display: inline-block; */
+    width: auto;
+    /* max-width: 100%; */
+    /* margin-bottom: 5px;   */
+    font-weight: 700;
+}
+
+#fifth .social {
+    margin-top: 50px;
+}
+
+.social a {
+    border: 0;
+    margin-left: 5px;
+}
+
+#fifth .links {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.links ul,
+.links>div {
+    width: 160px;
+    margin-left: 60px;
+}
+
+.links ul span {
+    font-size: 24px;
+    color: #e1e5e3;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+
+.links ul li a {
+    font-size: 16px;
+    color: #e1e5e3;
+}
+
+#fifth .contact-footer {
+    padding: 6px 4px;
+    /* margin-top: 50px; */
+    background: url(https://www.hackeru.co.il/assets/site/images/footer-contact.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-footer .inner {
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, .9);
+}
+
+.contact-footer .inner a.tel {
+    font-size: 30px;
+    font-family: almoni-dl;
+    color: #213a7f;
+    text-decoration: none;
+}
+
+.contact-footer .inner p {
+    width: 160px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #213a7f;
+    font-family: almoni-dl, sans-serif;
+}
+
+#fifth .form-inputs label>span {
+    position: static;
+}
+
+@media(max-width:1000px) {
+    #fifth .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #fifth .links ul,
+    #fifth .links div ul {
+        display: none;
+    }
+    #fifth form {
+        width: 80%;
+    }
+    #fifth .form-inputs {
+        width: 100%;
+        flex-direction: column;
+    }
+    #fifth .form-inputs .input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #fifth .form input {
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    #fifth .form-inputs .button {
+        width: 100%;
+        height: 60px;
+        /* padding-top: 8px; */
+    }
+    #fifth .social {
+        text-align: center;
+    }
+}
