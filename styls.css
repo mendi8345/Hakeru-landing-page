@@ -10,6 +10,11 @@
         font-family: 'Assistant', sans-serif;
         font-weight: 700;
     }
+    
+    html {
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+    }
     /* #second div,
     #second img {
         animation: body-animation 1500ms ease-in 0s 1;
@@ -33,7 +38,7 @@
     
     html,
     body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         height: 100%;
         width: 100%;
         padding-bottom: 58px;

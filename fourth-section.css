@@ -168,10 +168,10 @@
     }
     
     #fourth .meeting .mt {
-        padding-top: 10px;
         width: 100%;
-        height: 100%;
+        height: 50px;
         border: 2px solid #aad6be;
+        padding-top: 15px;
     }
     
     @media(max-width:1000px) {
