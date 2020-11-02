@@ -1,0 +1,28 @@
+.scroll {
+    /* display: flex; */
+}
+
+.scroll #scrolling-row {
+    display: flex;
+    height: 80px;
+    width: 28539px;
+    position: relative;
+    /* animation: scroll 10s timing-function 0s 2000 linear fill-mode; */
+    animation: scroll 500s ease-out 3s 200;
+    /* left: 1px; */
+}
+
+@media(max-width: 1000px) {
+    .scroll {
+        display: none;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        left: 1px;
+    }
+    100% {
+        left: 28539px;
+    }
+}

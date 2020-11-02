@@ -22,7 +22,7 @@
         font-size: 44px;
         font-weight: 700;
         margin: 0;
-        margin-bottom: 10px;
+        margin-bottom: 80px;
         grid-area: header;
         display: flex;
     }
@@ -115,7 +115,6 @@
         font-size: 14px;
         line-height: 1.42857143;
         color: #333;
-        font-family: almoni-dl, sans-serif;
         box-sizing: border-box;
         border: 0;
         padding: 0;
@@ -168,7 +167,6 @@
         color: black;
         font-size: 12px !important;
         font-weight: 700;
-        font-family: almoni-dl, sans-serif;
     }
     
     .buisness .inner p {
@@ -178,7 +176,6 @@
         margin-top: 0;
         font-size: 13.8px;
         margin-bottom: 0.2em;
-        font-family: almoni-dl, sans-serif;
     }
     
     .inner .left h3 {
@@ -222,7 +219,6 @@
     .course h3.title,
     .courses .pack {
         color: #333;
-        font-family: almoni-dl, sans-serif;
     }
     
     @media (max-width: 1000px) {

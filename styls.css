@@ -4,27 +4,39 @@
         margin: 0;
         direction: rtl;
         outline: 0;
+        /* font-family: 'Alef', sans-serif;
+        font-family: 'Assistant', sans-serif;
+        font-family: 'David Libre', serif; */
+        font-family: 'Assistant', sans-serif;
+        font-weight: 700;
     }
-    
-    #second div,
+    /* #second div,
     #second img {
         animation: body-animation 1500ms ease-in 0s 1;
         ;
+    } */
+    
+    .title {
+        font-family: 'Alef', sans-serif;
+        font-family: 'Assistant', sans-serif;
+        font-family: 'David Libre', serif;
+        font-family: 'Secular One', sans-serif;
     }
     
     nav ul li a {
         color: #333;
         text-decoration: none;
-        font-size: 16px;
-        /* font-weight: bold; */
+        font-size: 18px;
+        font-family: 'Assistant', sans-serif;
+        font-weight: 700;
     }
     
     html,
     body {
+        overflow-x: hidden;
         height: 100%;
         width: 100%;
         padding-bottom: 58px;
-        font-family: almoni-dl, sans-serif;
         /* display: flex; */
     }
     
@@ -134,7 +146,6 @@
     
     .tag {
         padding-top: 7px;
-        font-family: almoni-dl, sans-serif;
         font-weight: 700;
         width: 86px;
         height: 115px;
@@ -150,9 +161,9 @@
     }
     
     nav ul li {
-        font-family: 'Heebo', sans-serif;
+        /* font-family: 'Heebo', sans-serif; */
         width: auto;
-        padding-right: 20px;
+        padding-right: 10px;
     }
     /* .dropdown-menu li a {
     padding: 5px 15px;
@@ -162,6 +173,10 @@
     
     .open {
         /* display: block !important; */
+    }
+    
+    .is-visible {
+        animation: on-scroll-page 1500ms ease-in 0s 1;
     }
     
     @media (max-width: 1000px) {
@@ -203,7 +218,7 @@
     
     @media(min-width:40rem) {}
     
-    @keyframes body-animation {
+    @keyframes alert-animation {
         0% {
             transform: translateY(32rem);
             /* background: black; */
@@ -220,5 +235,18 @@
             transform: translateY(4rem);
             /* transform: rotateZ(360deg); */
             background: none;
+        }
+    }
+    
+    @keyframes on-scroll-page {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
         }
     }
